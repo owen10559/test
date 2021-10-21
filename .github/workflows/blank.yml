@@ -34,4 +34,4 @@ jobs:
         run: |
           echo hahahahaha
           ls
-          ipconfig
+          git remote -v
