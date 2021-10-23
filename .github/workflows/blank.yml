@@ -31,5 +31,5 @@ jobs:
           ls
 
       - name: Check py
-        run: python -v
+        run: python -V
 
