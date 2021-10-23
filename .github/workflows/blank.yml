@@ -33,3 +33,6 @@ jobs:
       - name: Check py
         run: python3 -V
 
+      - name: check docker
+        run: docker run hello-world
+
