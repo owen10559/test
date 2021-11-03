@@ -30,9 +30,7 @@ jobs:
           echo hahahahaha
           ls
 
-      - name: check py
+      - name: run py
         run: python3 -V
-
-      - name: check docker
-        run: docker run hello-world
+        run: python3 test.py
 
