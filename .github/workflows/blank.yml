@@ -25,12 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Run a multi-line script
-        run: |
-          echo hahahahaha
-          ls
-
       - name: run py
-        run: python3 -V
-        run: python3 test.py
+        run: |
+          python3 -V
+          python3 test.py
 
